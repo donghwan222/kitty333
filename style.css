@@ -67,7 +67,7 @@ body::after + svg {
 }
 .kitty {
   position: absolute;
-  width: 700px; /* 필요하면 크기 조절 */
+  width: 500px; /* 필요하면 크기 조절 */
   pointer-events: none;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -82,7 +82,7 @@ body::after + svg {
 
 .whale {
   position: absolute;
-  width: 300px; /* 필요하면 크기 조절 */
+  width: 200px; /* 필요하면 크기 조절 */
   pointer-events: none;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -126,6 +126,7 @@ body::after + svg {
       translate(var(--dx), var(--dy));
   }
 }
+
 
 
 
