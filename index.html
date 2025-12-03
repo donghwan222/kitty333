@@ -172,7 +172,7 @@
             const dy = centerY - mouseY;
             const dist = Math.hypot(dx, dy);
 
-            const threshold = s.isKitty ? 600 : 500; // 영향 범위
+            const threshold = s.isKitty ? 400 : 250; // 영향 범위
             if (dist > 0 && dist < threshold) {
               const nx = dx / dist;
               const ny = dy / dist;
@@ -253,3 +253,4 @@
     </script>
   </body>
 </html>
+
